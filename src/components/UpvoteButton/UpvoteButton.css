@@ -1,0 +1,15 @@
+.upvote-button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #f4f6f8;
+  color: #343a40;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.upvote-button.selected {
+  background-color: #e5e8fd;
+  color: #253cf2;
+}
